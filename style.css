@@ -43,23 +43,25 @@ img{
   border-radius: 50%;
 }
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background:#f9f6e7;
+  background-image: -webkit-linear-gradient(top, #f9f6e7, #f9f6e7);
+  background-image: -moz-linear-gradient(top,#f9f6e7, #f9f6e7);
+  background-image: -ms-linear-gradient(top, #f9f6e7, #f9f6e7);
+  background-image: -o-linear-gradient(top, #f9f6e7, #f9f6e7);
+  background-image: linear-gradient(to bottom,#f9f6e7, #f9f6e7);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  color:#f9f6e7;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+
+  -webkit-text-fill-color: blue;
 }
 .bottom-container {
-  background-color: #66bfbf;
+  background-color:#f9f6e7;
   padding: 50px 0 20px;
   text-align: center;
 }
