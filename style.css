@@ -7,15 +7,16 @@
 .tim1{
   display: block;
       margin: 0 auto;
-      width: 25% ;
+      width: 20%;
 }
 .title-text {
   display: block;
   margin: 0 auto;
-  width: 12%;
+  width: 80%;
   white-space: nowrap;
   color: black;
   font-size: 24px;
+  text-align: center;
 }
 .middle-container,intro {
   text-align: center;
@@ -26,10 +27,10 @@ div {
 }
 .parent {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(1, 1fr);
-  width: 50%;
-  margin: 100px auto 0 auto;
+  width: 80%;
+  margin: 50px auto 0 auto;
   text-align: left;
   row-gap: 2rem;
 }
@@ -58,7 +59,7 @@ img{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 
-  -webkit-text-fill-color: blue;
+  -webkit-text-fill-color:blue;
 }
 .bottom-container {
   background-color:#f9f6e7;
@@ -74,4 +75,9 @@ a {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+@media only screen and (max-width:768px) {
+  .top-container {
+    padding: 50px;
+  }
 }
