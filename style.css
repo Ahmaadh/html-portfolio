@@ -58,7 +58,6 @@ img{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-
   -webkit-text-fill-color:blue;
 }
 .bottom-container {
@@ -80,4 +79,8 @@ a {
   .top-container {
     padding: 50px;
   }
+}
+
+body {
+  font-size: 16px;
 }
